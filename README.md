@@ -9,6 +9,7 @@ Todo:
   - Unit Tests and runtime tests (both for Jab in general inside Unity and for the extensions)
   - Add a simple way to create a serializeable project/scene/gameobject contexts
   - Hoping to add somekind of ServiceProvider editor to edit attributes straight from the editor
+  - Better clearer samples
     
 
 
