@@ -1,6 +1,6 @@
 {
-    "name": "Jab.UnityExtensions.Samples",
-    "rootNamespace": "Jab.UnityExtensions.Samples",
+    "name": "Jab.Unity.Samples",
+    "rootNamespace": "Jab.Unity.Samples",
     "references": [
         "GUID:2d8564e9ed4a143a29391a24259fffec",
         "GUID:05671221c159a4805913fb9411e1a14d",
