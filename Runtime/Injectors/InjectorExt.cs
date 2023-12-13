@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Jab.UnityExtensions.Enums;
-using Jab.UnityExtensions.Extensions;
+using Jab.Unity.Extensions;
 using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace Jab.UnityExtensions.Injectors
+namespace Jab.Unity.Injectors
 {
     public static class InjectorExt
     {

@@ -1,7 +1,6 @@
 using System;
-using Jab.UnityExtensions.Injectors;
 
-namespace Jab.UnityExtensions
+namespace Jab.Unity.Injectors
 {
     public class CombineInjectors : IInjector
     {

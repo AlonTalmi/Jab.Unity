@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Jab.UnityExtensions.Exceptions
+namespace Jab.Unity.Exceptions
 {
     internal sealed class PropertyInjectorException : Exception
     {

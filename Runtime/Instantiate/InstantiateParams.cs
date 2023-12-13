@@ -1,8 +1,7 @@
-using Jab.UnityExtensions.Enums;
 using UnityEngine;
 using Object = UnityEngine.Object;
 
-namespace Jab.UnityExtensions
+namespace Jab.Unity
 {
     public interface IInstantiateParams
     {

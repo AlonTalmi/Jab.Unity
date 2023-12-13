@@ -1,11 +1,10 @@
 ﻿using System;
-using Jab.UnityExtensions.Enums;
-using Jab.UnityExtensions.Injectors;
+using Jab.Unity.Injectors;
 using JetBrains.Annotations;
 using UnityEngine;
 using Object = UnityEngine.Object;
 
-namespace Jab.UnityExtensions
+namespace Jab.Unity
 {
     public static class ServiceProviderInstantiateExt
     {

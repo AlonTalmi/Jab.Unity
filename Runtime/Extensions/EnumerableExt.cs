@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Jab.UnityExtensions.Extensions
+namespace Jab.Unity.Extensions
 {
     internal static class EnumerableExt
     {

@@ -1,11 +1,11 @@
 using System;
 using System.Collections.Generic;
 using System.Reflection;
-using Jab.UnityExtensions.Buffers;
-using Jab.UnityExtensions.Caching;
-using Jab.UnityExtensions.Exceptions;
+using Jab.Unity.Buffers;
+using Jab.Unity.Caching;
+using Jab.Unity.Exceptions;
 
-namespace Jab.UnityExtensions.Injectors
+namespace Jab.Unity.Injectors
 {
     public class ReflectionInjector : IInjector
     { 

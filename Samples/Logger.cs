@@ -1,14 +1,17 @@
 using UnityEngine;
 
-public class Logger : MonoBehaviour
+namespace Jab.Unity.Samples
 {
-    public void Log(string message)
+    public class Logger : MonoBehaviour
     {
-        Debug.Log(message);
-    } 
+        public void Log(string message)
+        {
+            Debug.Log(message);
+        } 
 
-    public void LogError(string message)
-    {
-        Debug.LogError(message);
+        public void LogError(string message)
+        {
+            Debug.LogError(message);
+        }
     }
 }

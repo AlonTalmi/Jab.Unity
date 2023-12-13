@@ -1,9 +1,8 @@
 using System;
-using Jab.UnityExtensions.Enums;
-using Jab.UnityExtensions.Injectors;
+using Jab.Unity.Injectors;
 using UnityEngine;
 
-namespace Jab.UnityExtensions.Extensions
+namespace Jab.Unity
 {
     public static class InstantiateParamsFactoryExt
     {

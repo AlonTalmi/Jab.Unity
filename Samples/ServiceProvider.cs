@@ -1,23 +1,23 @@
-using Jab;
-using Jab.UnityExtensions;
-using Jab.UnityExtensions.Injectors;
-using Jab.UnityExtensions.ManualInjector;
+using Jab.Unity.Injectors;
 using UnityEngine;
 
-[ServiceProvider]
-[Singleton(typeof(Logger), Instance = nameof(_logger))]
-[Singleton(typeof(IInjector), Factory = "CreateInjector")]
-[Singleton(typeof(string), Instance = nameof(_message))]
-public partial class ServiceProvider : MonoBehaviour
+namespace Jab.Unity.Samples
 {
-    [SerializeField] private Logger _logger;
-    [SerializeField] private string _message;
-
-    private static IInjector CreateInjector()
+    [ServiceProvider]
+    [Singleton(typeof(Logger), Instance = nameof(_logger))]
+    [Singleton(typeof(IInjector), Factory = "CreateInjector")]
+    [Singleton(typeof(string), Instance = nameof(_message))]
+    public partial class ServiceProvider : MonoBehaviour
     {
-        return new CombineInjectors(
-            new ReflectionInjector(),
-            new ManualInjector()
-        );
+        [SerializeField] private Logger _logger;
+        [SerializeField] private string _message;
+
+        private static IInjector CreateInjector()
+        {
+            return new CombineInjectors(
+                new ReflectionInjector(),
+                new ManualInjector()
+            );
+        }
     }
-} 
+}

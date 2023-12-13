@@ -1,7 +1,7 @@
 using System.Linq;
 using System.Reflection;
 
-namespace Jab.UnityExtensions.Caching
+namespace Jab.Unity.Caching
 {
     public sealed class TypeAttributeInfo
     {

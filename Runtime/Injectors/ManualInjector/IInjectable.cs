@@ -1,6 +1,6 @@
 using System;
 
-namespace Jab.UnityExtensions.ManualInjector
+namespace Jab.Unity.Injectors
 {
     public interface IInjectable
     {

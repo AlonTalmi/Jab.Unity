@@ -1,4 +1,4 @@
-﻿namespace Jab.UnityExtensions.Enums
+﻿namespace Jab.Unity
 {
     public enum InjectionMode
     {

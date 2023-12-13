@@ -1,21 +1,23 @@
 using System;
-using Jab.UnityExtensions;
-using Jab.UnityExtensions.ManualInjector;
+using Jab.Unity.Injectors;
 using UnityEngine;
 
-public class InjectableComponent : MonoBehaviour, IInjectable
+namespace Jab.Unity.Samples
 {
-    [Inject] private readonly string _message1;
-    private string _message2;
-
-    private void Awake()
+    public class InjectableComponent : MonoBehaviour, IInjectable
     {
-        Debug.Log(_message1, this);
-        Debug.Log(_message2, this);
-    }
+        [Inject] private readonly string _message1;
+        private string _message2;
 
-    public void Inject(IServiceProvider serviceProvider)
-    {
-        _message2 = serviceProvider.GetService<string>();
+        private void Awake()
+        {
+            Debug.Log(_message1, this);
+            Debug.Log(_message2, this);
+        }
+
+        public void Inject(IServiceProvider serviceProvider)
+        {
+            _message2 = serviceProvider.GetService<string>();
+        }
     }
 }

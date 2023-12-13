@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Reflection;
 
-namespace Jab.UnityExtensions.Exceptions
+namespace Jab.Unity.Exceptions
 {
     internal sealed class MethodInjectorException : Exception
     {

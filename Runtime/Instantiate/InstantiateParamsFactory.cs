@@ -1,8 +1,7 @@
 using System;
-using Jab.UnityExtensions.Enums;
 using UnityEngine;
 
-namespace Jab.UnityExtensions.Extensions
+namespace Jab.Unity
 {
     public class InstantiateParamsFactory
     {

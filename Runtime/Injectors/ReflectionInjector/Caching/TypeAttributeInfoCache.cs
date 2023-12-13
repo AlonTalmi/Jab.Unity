@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace Jab.UnityExtensions.Caching
+namespace Jab.Unity.Caching
 {
     public static class ReflectionTypeInfoCache
     {

@@ -1,7 +1,7 @@
 using System;
-using Jab.UnityExtensions.Injectors;
+using Jab.Unity.Injectors;
 
-namespace Jab.UnityExtensions.ManualInjector
+namespace Jab.Unity.Injectors
 {
     public class ManualInjector : IInjector
     {

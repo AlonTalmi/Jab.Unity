@@ -1,6 +1,6 @@
 using System;
 
-namespace Jab.UnityExtensions
+namespace Jab.Unity
 {
     public static class ServiceProviderExt
     {
