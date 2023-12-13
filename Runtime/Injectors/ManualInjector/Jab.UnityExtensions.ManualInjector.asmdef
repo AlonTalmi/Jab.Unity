@@ -1,0 +1,18 @@
+{
+    "name": "Jab.UnityExtensions.ManualInjector",
+    "rootNamespace": "Jab.UnityExtensions.ManualInjector",
+    "references": [
+        "GUID:2d8564e9ed4a143a29391a24259fffec"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Jab.Attributes.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": true
+}

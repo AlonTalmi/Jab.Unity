@@ -1,0 +1,20 @@
+{
+    "name": "Jab.UnityExtensions.Samples",
+    "rootNamespace": "Jab.UnityExtensions.Samples",
+    "references": [
+        "GUID:2d8564e9ed4a143a29391a24259fffec",
+        "GUID:05671221c159a4805913fb9411e1a14d",
+        "GUID:e5c21ff44a92f4f88bcc498537c15bf3"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Jab.Attributes.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
