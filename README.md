@@ -12,6 +12,6 @@ Todo:
     
 
 
-To use add https://github.com/AlonTalmi/Jab.UnityExtensions.git through UPM
+To use add https://github.com/AlonTalmi/Jab.Unity.git through UPM
 
 (Window ↝ Package Manager ↝ '+' ↝ Add package from git URL...)

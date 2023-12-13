@@ -1,12 +1,12 @@
 {
-  "name": "jab.unityextensions",
+  "name": "jab.unity",
   "version": "1.0.0",
-  "description": "Unity extension to use with Jab - compile time dependency injection library",
+  "description": "Unity extensions to use with Jab - compile time dependency injection library",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Alon Talmi",
   "license": "ISC",
-  "displayName": "Jab.UnityExtensions"
+  "displayName": "Jab.Unity"
 }

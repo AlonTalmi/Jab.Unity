@@ -1,6 +1,6 @@
 {
-    "name": "Jab.UnityExtensions.ManualInjector",
-    "rootNamespace": "Jab.UnityExtensions.ManualInjector",
+    "name": "Jab.Unity.ManualInjector",
+    "rootNamespace": "Jab.Unity.ManualInjector",
     "references": [
         "GUID:2d8564e9ed4a143a29391a24259fffec"
     ],

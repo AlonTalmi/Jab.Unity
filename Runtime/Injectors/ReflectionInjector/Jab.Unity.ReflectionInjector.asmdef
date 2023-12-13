@@ -1,6 +1,6 @@
 {
-    "name": "Jab.UnityExtension.ReflectionInjector",
-    "rootNamespace": "Jab.UnityExtension.ReflectionInjector",
+    "name": "Jab.Unity.ReflectionInjector",
+    "rootNamespace": "Jab.Unity.ReflectionInjector",
     "references": [
         "GUID:2d8564e9ed4a143a29391a24259fffec"
     ],

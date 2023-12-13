@@ -1,6 +1,6 @@
 {
-    "name": "Jab.UnityExtensions",
-    "rootNamespace": "Jab.UnityExtensions",
+    "name": "Jab.UnityAsmdef",
+    "rootNamespace": "Jab.Unity",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
